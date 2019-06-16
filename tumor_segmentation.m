@@ -1,5 +1,4 @@
 image = cjdata.image; 
-tumor = cjdata.tumorMask;
 image_contrasted = imadjust(image);
 
 image_lpf = medfilt2(image_contrasted);
